@@ -1,0 +1,24 @@
+
+
+.column {
+  width: 5000px; /* ปรับขนาดความกว้างของคอลัมตามต้องการ */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%; /* ทำให้การ์ดเต็มคอลัม */
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 100px; /* จัดการตำแหน่งรูปภาพตรงกลาง */
+  width: 100px; /* ปรับขนาดของรูปภาพตามต้องการ */
+  height: 300; /* ปรับตามอัตราส่วน */
+}
+
+.card h1, .card p {
+  /* ปรับแต่งขนาดตัวหนังสือหรือข้อความตามต้องการ */
+}
